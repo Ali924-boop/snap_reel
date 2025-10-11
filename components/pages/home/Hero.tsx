@@ -46,7 +46,7 @@ const Hero = () => {
     <h4 className="text-black text-xs sm:text-sm">4.9/5 ratings</h4>
   </div>
 
-  <p className="text-gray-700 text-sm sm:text-base md:text-lg">
+  <p className="text-black text-sm sm:text-base md:text-lg">
     Transform your ideas into professional 30-second videos. No editing
     skills, no expensive software—just your imagination and our AI.
   </p>
