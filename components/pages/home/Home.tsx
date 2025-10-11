@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from './Hero'
 import Item from './Item'
 import Gallery from './Gallery'
+import Testimonial from './Testimonial'
+import Cta from './Cta'
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
       <Hero />
       <Item />
       <Gallery />
+      <Testimonial />
+      <Cta />
     </div>
   )
 }

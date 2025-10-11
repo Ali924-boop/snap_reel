@@ -3,7 +3,7 @@ import { Play, Video, Rocket, Star, StarHalf } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center text-center px-4 py-16 md:py-24 lg:py-28 overflow-hidden bg-white">
+    <div className="relative flex flex-col items-center justify-center text-center px-4 py-16 md:py-24 lg:py-28 overflow-hidden">
       {/* Decorative Image */}
       <img
         src="/item.svg"
