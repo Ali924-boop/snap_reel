@@ -21,11 +21,11 @@
             </p>
         </div>
         {/* Steps Section */}
-        <div className="flex flex-col sm:flex-row justify-center items-start gap-8 mt-10 px-6">
+        <div className="flex flex-col sm:flex-row justify-center items-start gap-8 mt-10 px-6 ">
             {/* LEFT COLUMN (Step 1 + Step 6) */}
             <div className="flex flex-col gap-3.5">
             {/* Step 1 */}
-            <div className="bg-[#BB9457] text-white shadow-xl rounded-xl p-6 w-95 h-105 hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#BB9457] text-white shadow-xl rounded-xl p-6 w-100 h-105 hover:scale-105 transition-transform duration-300">
                 <div className="flex items-center justify-between">
                 <h4 className="font-semibold text-sm">Step 1</h4>
                   <span title="Click to play video">
@@ -61,12 +61,12 @@
             </div>
 
             {/* Step 6 */}
-            <div className="bg-[#B0C4B1] text-white shadow-xl rounded-xl p-6 w-95 h-43 hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#B0C4B1] text-white shadow-xl rounded-xl p-6 w-100 h-43 hover:scale-105 transition-transform duration-300">
                 <div className="flex items-center justify-between">
                 <h4 className="font-semibold text-sm">Step 6</h4>
                 <ArrowUpRight className="w-4 h-4" />
                 </div>
-                <div className="font-bold mt-2 text-4xl px-10 justify-center">
+                <div className="font-bold mt-2 text-5xl px-10 justify-center">
                 <h3>Your Video is Ready!</h3>
                 </div>
             </div>
@@ -75,7 +75,7 @@
             {/* RIGHT COLUMN (Step 2–5 with different colors) */}
             <div className="flex flex-col gap-3.5 ml-[-15px]">
             {/* Step 2 */}
-            <div className="bg-[#98B9F2] text-white shadow-xl rounded-xl p-6 w-95 h-36 hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#98B9F2] text-white shadow-xl rounded-xl p-6 w-100 h-36 hover:scale-105 transition-transform duration-300">
                 <div className="flex items-center justify-between">
                 <h4 className="font-semibold text-sm">Step 2</h4>
                 <ArrowUpRight className="w-4 h-4" />
@@ -90,7 +90,7 @@
             </div>
 
             {/* Step 3 */}
-            <div className="bg-[#CBAAE1] text-white shadow-xl rounded-xl p-6 w-95 h-35 hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#CBAAE1] text-white shadow-xl rounded-xl p-6 w-100 h-35 hover:scale-105 transition-transform duration-300">
                 <div className="flex items-center justify-between">
                 <h4 className="font-semibold text-sm">Step 3</h4>
                 <ArrowUpRight className="w-4 h-4" />
@@ -103,7 +103,7 @@
             </div>
 
             {/* Step 4 */}
-            <div className="bg-[#60D394] text-white shadow-xl rounded-xl p-6 w-95 h-35 hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#60D394] text-white shadow-xl rounded-xl p-6 w-100 h-35 hover:scale-105 transition-transform duration-300">
                 <div className="flex items-center justify-between">
                 <h4 className="font-semibold text-sm">Step 4</h4>
                 <ArrowUpRight className="w-4 h-4" />
@@ -118,7 +118,7 @@
             </div>
 
             {/* Step 5 */}
-            <div className="bg-[#E9C46A] text-white shadow-xl rounded-xl p-6 w-95 h-35 hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#E9C46A] text-white shadow-xl rounded-xl p-6 w-100 h-35 hover:scale-105 transition-transform duration-300">
                 <div className="flex items-center justify-between">
                 <h4 className="font-semibold text-sm">Step 5</h4>
                 <ArrowUpRight className="w-4 h-4" />
