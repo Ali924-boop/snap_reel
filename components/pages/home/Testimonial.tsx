@@ -193,7 +193,7 @@ const Testimonial = () => {
   rounded-l-full shadow-lg self-end mt-10 relative"
 >
   {/* Icon */}
-  <div className="relative ml-35 top-0 mb-1 sm:justify-start md:ml-58 sm:mt-0">
+  <div className="relative ml-35 top-0 mb-1 sm:justify-start md:ml-55 sm:mt-0">
     <img
       src="/icon-t.png"
       alt="icon-t"
@@ -210,19 +210,19 @@ const Testimonial = () => {
     </p>
   </div>
 
-  <div className="flex flex-row items-center ml-35 justify-start mt-2 sm:mt-3 gap- sm:gap-10 md:ml-1 md:gap-1 lg:ml-16">
+  <div className="flex flex-row items-center ml-35 justify-start mt-2 sm:mt-3 gap- sm:gap-10 md:ml-1 md:gap-1 lg:ml-18">
     {/* Reviewer info */}
-    <div className="flex flex-col md:ml-[225px] ">  
-      <p className="text-black text-[8px] font-bold sm:text-sm md:text-lg lg:text-xl">
+    <div className="flex flex-col md:ml-[218px] ">  
+      <p className="text-black text-[8px] font-bold sm:text-sm md:text-sm lg:text-xl">
         Aisha Khan
       </p>
-      <p className="text-[#707070] text-[7px] sm:text-xs md:text-sm lg:text-sm">
+      <p className="text-[#707070] text-[7px] sm:text-xs md:text-[13px] lg:text-sm">
         Freelance Social Media Manager
       </p>
     </div>
 
     {/* Stars box */}
-    <div className="flex items-center justify-center ml-5 sm:mr-10 gap-1 rounded-lg bg-[#CBAAE1] px-1 py-1 shadow-[0_4px_15px_rgba(0,0,0,0.4)] border border-[#CBAAE1]">
+    <div className="flex items-center justify-center ml-5 sm:mr-10 gap-1 rounded-lg  bg-[#CBAAE1] px-1 py-1 shadow-[0_4px_15px_rgba(0,0,0,0.4)] border border-[#CBAAE1]">
       <Star className="text-black fill-black w-2 h-2 sm:w-4 sm:h-4 md:w-3 md:h-3 lg:w-4 lg:h-4" />
       <Star className="text-black fill-black w-2 h-2 sm:w-4 sm:h-4 md:w-3 md:h-3 lg:w-4 lg:h-4" />
       <Star className="text-black fill-black w-2 h-2 sm:w-4 sm:h-4 md:w-3 md:h-3 lg:w-4 lg:h-4" />
