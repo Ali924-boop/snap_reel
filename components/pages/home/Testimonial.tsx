@@ -164,11 +164,11 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="absolute right-1 bottom-[-5px] w-auto sm:right-4 md:right-2 top-[-40px] sm:top-[-60px] md:top-[-80px lg:top-[-120px] lg:right-2">
+        <div className="absolute right-1 bottom-[-5px] w-auto sm:right-4 md:right-2 top-[-40px] sm:top-[-60px] md:top-[-80px lg:top-[-110px] lg:right-10">
           <img
             src="/reviewer3.png"
             alt="reviewer3"
-            className="h-[160px] sm:h-[140px] md:h-[220px] lg:h-[340px] w-auto"
+            className="h-[160px] sm:h-[140px] md:h-[220px] lg:h-[310px] w-auto"
           />
         </div>
       </div>

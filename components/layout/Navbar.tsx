@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,15 +41,15 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
-          <a href="#" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
+          <Link href="/" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
             STORY TO VIDEO
-          </a>
-          <a href="#" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
+          </Link>
+          <Link href="/pricing" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
             PRICING
-          </a>
-          <a href="#" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
+          </Link>
+          <Link href="/features" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
             FEATURE
-          </a>
+          </Link>
           <button className="text-white font-medium rounded-lg px-2 sm:px-4 py-1 sm:py-2 bg-[#C15F3C] hover:bg-[#a54d2d] text-xs sm:text-sm md:text-base transition">
             Get Started
           </button>
@@ -69,15 +70,15 @@ const Navbar = () => {
         }`}
       >
         <div className="px-4 py-3 space-y-2 sm:space-y-3 rounded-xl">
-          <a href="#" className="block text-black font-medium text-sm sm:text-base hover:text-[#C15F3C] transition">
+          <Link href="/" className="block text-black font-medium text-sm sm:text-base hover:text-[#C15F3C] transition">
             STORY TO VIDEO
-          </a>
-          <a href="#" className="block text-black font-medium text-sm sm:text-base hover:text-[#C15F3C] transition">
+          </Link>
+          <Link href="/pricing" className="block text-black font-medium text-sm sm:text-base hover:text-[#C15F3C] transition">
             PRICING
-          </a>
-          <a href="#" className="block text-black font-medium text-sm sm:text-base hover:text-[#C15F3C] transition">
+          </Link>
+          <Link href="/feature" className="block text-black font-medium text-sm sm:text-base hover:text-[#C15F3C] transition">
             FEATURE
-          </a>
+          </Link>
           <button className="w-full text-white font-medium rounded-md py-2 sm:py-3 bg-[#C15F3C] hover:bg-[#a54d2d] text-sm sm:text-base transition">
             Get Started
           </button>
