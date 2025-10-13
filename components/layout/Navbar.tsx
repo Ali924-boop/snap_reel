@@ -9,9 +9,9 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 20) {
-        setScrolled(true); // scroll ho gaya
+        setScrolled(true); 
       } else {
-        setScrolled(false); // top par
+        setScrolled(false);
       }
     };
     window.addEventListener("scroll", handleScroll);

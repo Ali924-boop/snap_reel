@@ -4,15 +4,13 @@ import { CircleArrowUp,Video  } from 'lucide-react';
 const Cta = () => {
   return (
     <div className="relative bg-[#B0C4B1] w-full h-[200px] md:w-full md:h-[265px] lg:w-full lg:h-[452px] overflow-hidden">
- {/* Background image covering the div */}
+      {/* Background Image */}
 <img
   src="/Cta-pic.png"
   alt="background"
   className="absolute top-10 h-[230px] left-1/2 transform -translate-x-1/2 md:top-13 md:w-full md:h-[295px] lg:w-full lg:h-[500px] lg:top-26 "
 />
 
-
-  {/* Content over the image */}
   <div className="relative z-10 py-2 flex flex-col lg:py-8 lg:gap-2 items-center justify-center">
     <h1 className="text-white font-bold md:text-2xl lg:text-5xl">Ready to create your</h1>
     <span className="text-white font-bold md:text-2xl lg:text-5xl">
@@ -25,7 +23,6 @@ better stories faster.
    
   {/* Input container with icon */}
   <div className="relative justify-center flex items-center">
-    {/* Icon inside input */}
     <span className="absolute w-4 h-4 left-3 top-4 md:top-5 lg:w-8 lg:h-8 lg:left-3 lg:top-1/3 transform -translate-y-1/2">
       <img src="/input-icon.png" alt="icon" className='pb-13 lg:pl-3' />
     </span>

@@ -24,7 +24,6 @@ const Item = () => {
 
       {/* Steps Section */}
       <div className="flex flex-col lg:flex-row justify-center items-start gap-6 lg:gap-8 px-4 sm:px-6 lg:px-20 mt-6 sm:mt-10">
-        {/* LEFT COLUMN (Step 1 + Step 6) */}
         <div className="flex flex-col gap-4 sm:gap-5 w-full lg:w-1/2">
           {/* Step 1 */}
           <div className="bg-[#BB9457] text-white shadow-xl rounded-xl p-4 sm:p-6 hover:scale-105 transition-transform duration-300">
@@ -64,7 +63,7 @@ const Item = () => {
 
           {/* Step 6 */}
           <div className="bg-[#B0C4B1] text-white shadow-xl rounded-xl p-4 sm:p-6 lg:p-8 lg:h-[220px] hover:scale-105 transition-transform duration-300 flex flex-col items-center justify-between">
-  {/* Header with Step */}
+  
   <div className="flex items-center justify-between w-full px-2">
     <h4 className="font-semibold text-sm sm:text-base md:text-lg">Step 6</h4>
     <span title="Click to play video">
@@ -75,12 +74,10 @@ const Item = () => {
     </span>
   </div>
 
-  {/* Main text */}
   <div className="font-bold mt-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl text-center px-2">
     <h3>Your Video is Ready!</h3>
   </div>
 </div>
-
         </div>
 
         {/* RIGHT COLUMN (Step 2–5) */}
