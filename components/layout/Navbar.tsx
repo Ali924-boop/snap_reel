@@ -27,7 +27,7 @@ const Navbar = () => {
           : "mt-0 bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 py-1 md:py-3 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-1 md:py-1 md:px-10 lg:py-1 lg:px-20 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
           <img
@@ -35,25 +35,25 @@ const Navbar = () => {
             alt="Logo"
             height={50}
             width={50}
-            className="cursor-pointer sm:h-12 sm:w-12 md:h-16 md:w-16"
+            className="cursor-pointer sm:h-12 sm:w-12 md:h-18 md:w-18 lg:w-20 lg:h-20"
           />
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
-          <Link href="/" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
+        <ul className="hidden md:flex items-center space-x-4 lg:space-x-6">
+          <li><Link href="/" className="text-black font-medium text-xs sm:text-sm md:text-base lg:text-sm hover:text-[#C15F3C] transition">
             STORY TO VIDEO
-          </Link>
-          <Link href="/pricing" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
+          </Link></li>
+          <li><Link href="/pricing" className="text-black font-medium text-xs sm:text-sm md:text-base lg:text-sm hover:text-[#C15F3C] transition">
             PRICING
-          </Link>
-          <Link href="/features" className="text-black font-medium text-xs sm:text-sm md:text-base hover:text-[#C15F3C] transition">
+          </Link></li>
+          <li><Link href="/features" className="text-black font-medium text-xs sm:text-sm md:text-base lg:text-sm hover:text-[#C15F3C] transition">
             FEATURE
-          </Link>
-          <button className="text-white font-medium rounded-lg px-2 sm:px-4 py-1 sm:py-2 bg-[#C15F3C] hover:bg-[#a54d2d] text-xs sm:text-sm md:text-base transition">
+          </Link></li>
+          <button className="text-black bg-[#C15F3C] hover:bg-[#a54d2d] transition text-xs font-medium rounded-lg py-1 sm:px-4 sm:text-sm sm:py-2 md:text-base lg:px-14">
             Get Started
           </button>
-        </div>
+        </ul>
 
         {/* Mobile Toggle Button */}
         <div className="md:hidden">
