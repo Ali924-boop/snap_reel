@@ -4,7 +4,6 @@ import { Play, Video, Rocket, Star, StarHalf } from "lucide-react";
 const Hero = () => {
   return (
     <div className="relative flex flex-col items-center justify-center text-center px-4 py-16 md:py-24 lg:py-28 overflow-hidden">
-      {/* Decorative Image */}
       <img
         src="/item.svg"
         alt="Decorative Element"
@@ -51,10 +50,8 @@ const Hero = () => {
     skills, no expensive software—just your imagination and our AI.
   </p>
 </div>
-
       </div>
 
-      {/* 🚀 Buttons */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
         <button className="flex items-center justify-center gap-2 text-white font-medium rounded-md py-2.5 px-6 sm:py-3 sm:px-8 text-sm sm:text-base bg-[#C15F3C] hover:bg-[#a54d2d] transition-all duration-300 shadow-md active:scale-95">
           <Rocket className="w-4 h-4 sm:w-5 sm:h-5" />
